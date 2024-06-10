@@ -182,4 +182,3 @@ class Mago(PersonajeAbstracto):
     def subir_nivel(self, fuerza, inteligencia, defensa):
         super().subir_nivel(fuerza, inteligencia, defensa)
         self.libro += 1
-

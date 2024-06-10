@@ -141,3 +141,5 @@ personaje_2 = Mago("Yennefer", 7, 18, 3, 100, 5)
 
 personaje_1.atacar(personaje_2)  # Guerrero ataca con su espada
 personaje_2.atacar(personaje_1)  # Mago lanza un hechizo
+
+
