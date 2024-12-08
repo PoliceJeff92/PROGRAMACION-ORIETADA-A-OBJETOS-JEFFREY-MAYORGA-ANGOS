@@ -1,0 +1,32 @@
+flowchart TB
+    A[ISO/IEC 24764] --> B[Objetivo Principal]
+    B --> B1[Definir requisitos de sistemas de cableado\npara infraestructuras de TI]
+    
+    A --> C[Ámbito de Aplicación]
+    C --> C1[Cableado de campus]
+    C --> C2[Centros de datos]
+    C --> C3[Infraestructuras empresariales]
+    
+    A --> D[Componentes Principales]
+    D --> D1[Cableado Horizontal]
+    D --> D2[Cableado Troncal/Backbone]
+    D --> D3[Áreas de Trabajo]
+    D --> D4[Salas de Telecomunicaciones]
+    
+    A --> E[Tipos de Medios de Transmisión]
+    E --> E1[Fibra Óptica]
+    E --> E2[Cable de Cobre UTP/STP]
+    E --> E3[Cables de Fibra Multimodo]
+    E --> E4[Cables de Fibra Monomodo]
+    
+    A --> F[Requisitos de Rendimiento]
+    F --> F1[Categorías de Cableado]
+    F --> F2[Distancias Máximas]
+    F --> F3[Características Eléctricas]
+    F --> F4[Pruebas de Certificación]
+    
+    A --> G[Consideraciones de Diseño]
+    G --> G1[Escalabilidad]
+    G --> G2[Flexibilidad]
+    G --> G3[Gestión de la Infraestructura]
+    G --> G4[Rendimiento y Confiabilidad]
